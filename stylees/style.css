@@ -9,11 +9,45 @@ body{
     font-family: 'Roboto', sans-serif;
    font-family: 'Roboto Mono', monospace;
    background-color: #F3F1FF;
+   margin: 0;
+
 }
+/* Naving-Section */
+.li,a{
+    list-style-type: none;
+    text-decoration: none;
+    color:white;
+    margin-left: 20px;
+}
+.naving{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(41, 41, 228, 0.815);
+    padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  color: white;
+}
+.list img{
+    width:40px;
+    border-radius:50%;
+
+}
+.list{
+    display: flex;
+    align-items: center;
+
+}
+ 
+ 
+ 
 main{
     display: flex;
     align-items: center;
     flex-direction: column;
+    /* margin-top: 20px; */
+     
 }
 .container{
     background-color:  #FFFFFF;
@@ -21,6 +55,7 @@ main{
     padding: 30px;
     margin-bottom: 21px;
     border-radius: 5px;
+   
 }
 .title-section{
     color: #562EFF;
@@ -48,7 +83,8 @@ main{
     font-size: 18px;
 }
 hr{
-    /* margin-top: 30px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .blog{
     display: flex;
@@ -110,6 +146,13 @@ hr{
    border-radius: 5px;
     
 }
+.course-author,.course-duration{
+    color: rgba(236, 29, 29, 0.973);
+}
+.course-duration{
+    background-color: rgba(236, 135, 211, 0.616);
+    border-radius: 10px;
+}
 /* -----------
 --     Media Query
 --------------------*/
@@ -134,4 +177,24 @@ hr{
         flex-direction: column;
     }
     
+}
+.foot{
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.picicon{
+    margin-top: 15px;
+    color: blue;
+    font-size: 1.5em;
+}
+.picicon:hover{
+    color: red;
+}
+.icon p{
+    margin-top: 5px;
+   text-align: center;
 }
